@@ -1,0 +1,110 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+  background: #f7f9fc;
+  text-align: center;
+}
+.home-content {
+  flex: 1;
+  padding: 40px 20px;
+}
+.hero {
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero h1 span {
+  color: #4caf50;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: #43a047;
+}
+
+.secondary-btn {
+  background-color: white;
+  color: #4caf50;
+  border: 2px solid #4caf50;
+}
+
+.secondary-btn:hover {
+  background-color: #e8f5e9;
+}
+
+.features {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin: 40px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  flex-grow: 1; /* Ensures content stretches if needed */
+}
+
+.features h2 {
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.features li {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.cta {
+  margin-top: 50px;
+}
+
+.cta h3 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.dashboard-footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+  width: 100%;
+}

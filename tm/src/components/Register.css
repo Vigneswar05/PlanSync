@@ -1,0 +1,45 @@
+.register-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    gap: 190px;
+}
+.field{
+    padding: 5px;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.register-Form {
+  background-color: #f4f4f4;
+  max-height: 100vh;
+  max-width: 100vw;
+  align-items: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+input {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: 100px;
+  height: 50px;
+  margin-left: 25%;
+}
