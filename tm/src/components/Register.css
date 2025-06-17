@@ -1,57 +1,134 @@
-.register-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 20px;
-  background-color: #f7f9fc;
-  min-height: 100vh;
-  font-family: 'Segoe UI', sans-serif;
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-.register-box {
+.register-main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f0f2f5;
+  color: #333;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #2d3e50;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.right .logout-btn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Form */
+.register-Form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.register-Form fieldset {
+  border: none;
+  padding: 2rem;
   background-color: white;
-  padding: 30px 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   width: 100%;
   max-width: 400px;
 }
 
-.register-box h2 {
-  margin-bottom: 20px;
-  text-align: center;
+/* Form fields */
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
 }
 
-.register-box input {
+.field label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.field input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button */
+.btn {
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-.register-box button {
-  width: 100%;
-  padding: 12px;
-  background-color: #4caf50;
+  background-color: #4CAF50;
+  font-size: 1rem;
   color: white;
   border: none;
-  border-radius: 6px;
-  font-size: 1rem;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  margin-top: 1rem;
 }
 
-.register-box button:hover {
-  background-color: #43a047;
+.btn:hover {
+  background-color: #45a049;
 }
 
-@media (max-width: 480px) {
-  .register-box {
-    padding: 20px 15px;
+/* Footer */
+.dashboard-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2d3e50;
+  color: white;
+  margin-top: auto;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .dashboard-header {
+    flex-direction: column;
+    text-align: center;
   }
 
-  .register-box h2 {
-    font-size: 1.5rem;
+  .left, .right {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .register-Form {
+    padding: 1rem;
+  }
+
+  .register-Form fieldset {
+    padding: 1.5rem;
   }
 }
