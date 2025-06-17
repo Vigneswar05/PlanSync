@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PlanSync/static/css/main.e3b91100.css",
+    "main.css": "/PlanSync/static/css/main.e657fd57.css",
     "main.js": "/PlanSync/static/js/main.00eef7e8.js",
     "static/js/453.7b4d6ff4.chunk.js": "/PlanSync/static/js/453.7b4d6ff4.chunk.js",
     "static/media/logo.png": "/PlanSync/static/media/logo.618f9d67d649ee9ff159.png",
     "index.html": "/PlanSync/index.html",
-    "main.e3b91100.css.map": "/PlanSync/static/css/main.e3b91100.css.map",
+    "main.e657fd57.css.map": "/PlanSync/static/css/main.e657fd57.css.map",
     "main.00eef7e8.js.map": "/PlanSync/static/js/main.00eef7e8.js.map",
     "453.7b4d6ff4.chunk.js.map": "/PlanSync/static/js/453.7b4d6ff4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3b91100.css",
+    "static/css/main.e657fd57.css",
     "static/js/main.00eef7e8.js"
   ]
 }
